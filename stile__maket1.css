@@ -1,0 +1,724 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+/* Стили контейнеров */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/*  Конец стилей Контейнеров */
+.heder__top {
+    display: flex;
+    flex-direction: column;
+
+
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background-image: url("./img__top/big_photo_top.png");
+    background-repeat: no-repeat;
+    background-position: right 96%;
+
+}
+
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+    /* height: 48px; */
+    margin-top: 34px;
+
+}
+
+.heder {
+
+    width: 504px;
+    margin-top: 107px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
+    font-size: 64px;
+    line-height: 74px;
+
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.heder__text {
+    width: 425px;
+
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.button__heder {
+    max-width: 220px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 71px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 0px;
+    border: none;
+}
+
+/*Верх сайта закончен */
+
+/* Начало средины ! контент */
+.heder__section2 {
+
+    margin: 64px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.wrapper__section2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.wrapper__section2__block {
+    width: 359px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    /* shadow1 */
+
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+
+.logo {
+    width: 172px;
+    height: 120px;
+    padding-left: 67px;
+    padding-top: 43px;
+    padding-bottom: 51px;
+}
+
+
+
+.heder__block {
+    width: 283px;
+    height: 55px;
+    padding-left: 32px;
+    padding-right: 44px;
+    padding-bottom: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    letter-spacing: 0.05em;
+
+    color: #1F3F68;
+
+}
+
+.text__block {
+    width: 268px;
+    height: 94px;
+    padding-left: 32px;
+    padding-right: 59px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+
+    color: #1F3F68;
+
+    opacity: 0.6;
+}
+
+.button__section2__block {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 28px;
+    margin-bottom: 44px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+.button__section2__block img {
+    padding-left: 20px;
+    width: 15px;
+}
+
+/*block__2__Our__Finished__Project*/
+.Finished__Project {
+    margin: 110px 110px 70px 95px;
+
+}
+
+.Finished__Project__heder {
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 110px;
+}
+
+.project__text__lorem {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+
+    margin-top: 25px;
+    margin: 0 auto;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+/* Bloc img 1 big */
+.project__photo__1 {
+    position: relative;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project__img1__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+/* блок с двумя фотками */
+.project__photo__para {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-grow: 1;
+    margin-bottom: 70px;
+}
+
+.project__item {
+    position: relative;
+    margin-right: 30px;
+
+}
+
+.project__item2 {
+    position: relative;
+
+}
+
+.project__img2__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.project__img3__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+/* нижний блок ( подвал ) */
+.bоtton__block {
+    height: 660px;
+    max-width: 100%;
+    background: #316099;
+}
+
+/* левый верхний текст Заголовок + параграф */
+.Intersted__heder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 340px;
+    padding-top: 90px;
+    margin-left: 115px;
+    /* height: 95px; */
+}
+
+/* Есть вопрос по размеру текста */
+.Intersted__text {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 494px;
+    /* height: 80px; */
+    margin-top: 30px;
+    margin-left: 115px;
+}
+
+.Intersted__block__button {
+
+    margin-top: 165px;
+}
+
+.text__button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    border: none;
+    padding: 15px 80px;
+}
+
+.Intersted__block__Intersted__block__button {
+    padding-right: 115px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hr {
+    width: 100%;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 95px;
+}
+
+/* menu contacts ( bloc) */
+
+.stayil__contact_infrmation {
+    margin-left: 19px;
+
+}
+
+.lisct__contats {
+    margin-left: 130px;
+    margin-right: 115px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.cotacts__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.rights__block {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-top: 60px;
+    margin-left: 115px;
+    margin-bottom: 65px;
+
+}
+
+.contact__li {
+    max-width: 333px;
+}
+
+.contact__li::marker {
+    display: block;
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px
+    }
+
+
+
+    .heder__top {
+        padding-bottom: 100px;
+        background-size: 50%;
+        margin: 30px 30px 60px 30px;
+    }
+
+    /*Content .wrapper__section2*/
+    .wrapper__section2 {
+        max-width: 705px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper__section2__block {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*project block */
+    .Finished__Project {
+        margin-top: 120px
+    }
+
+    .project__photo__1 {
+        margin-left: 35px;
+        margin-right: 25px;
+        max-width: 705px;
+    }
+
+    .project__photo__para {
+        flex-grow: 1;
+        margin: 32px 32px 110px 32px
+    }
+
+    .project__item {
+        margin-right: 32px
+    }
+
+    .project__text__lorem {
+        max-width: 520px;
+    }
+
+    /* block contacts*/
+    .Intersted__block__button {}
+
+    .Intersted__heder {
+        padding-top: 45px;
+    }
+
+    .Intersted__text {
+        max-width: 336px
+    }
+
+    .text__button {
+        padding: 0;
+        width: 130px;
+        height: 30px;
+    }
+
+    /* .bоtton__block {
+        max-width: 768px;
+    } */
+
+
+
+    /* .Intersted__block__Intersted__block__button {
+        padding-right: 115px;
+        margin-right: 120px;
+    } */
+
+
+
+
+    .lisct__contats {
+        flex-direction: column;
+    }
+
+    .contact__li {
+        max-width: 520px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:700px) {
+    .container {
+        max-width: 700px;
+        background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
+
+    }
+
+    .heder__top {
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .top__menu {
+        margin: 15px 20px 0px 15px;
+    }
+
+    .heder {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        max-width: 343px;
+        margin: 0 auto;
+        ;
+    }
+
+    .heder__text {
+        max-width: 343px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .button__heder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        padding: 0;
+        height: 28px;
+        width: 108px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    /* Второй блок Контент  */
+    .heder__section2 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        width: 340px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .wrapper__section2 {
+        margin-top: 30px
+    }
+
+    .Finished__Project {
+        margin: 0 auto;
+    }
+
+    .Finished__Project__heder {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin-top: 65px;
+    }
+
+    .project__text__lorem {
+        width: 343px;
+        margin-top: 30px;
+    }
+
+    .project__photo__1 {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 80p
+    }
+
+    .project__img1__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #FFFFFF;
+        top: 16px;
+        right: 33px;
+    }
+
+    .project__photo__para {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .project__item {
+        margin: 0;
+        margin-bottom: 16px
+    }
+
+    .project__img2__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    .project__img3__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+
+    }
+
+    /* Нижний блок Синий  */
+    .Intersted__block {
+        margin: 0 auto;
+    }
+
+
+    .Intersted__block__Intersted__block__button {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .Intersted__heder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0;
+        width: 343px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .Intersted__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .Intersted__block__button {
+        margin: 0 auto;
+        width: 108px;
+    }
+
+    .text__button {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin-top: 40px;
+        width: 108px;
+    }
+
+    .hr {
+        margin-top: 40px;
+    }
+
+    .block__contacts {}
+
+    .lisct__contats {
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin: 32px 40px;
+    }
+
+    .contact__li {}
+
+    .stayil__contact_infrmation {
+        margin: 0;
+
+        ;
+    }
+
+
+}
